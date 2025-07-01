@@ -1,6 +1,6 @@
 const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL;
 
-export async function generateReportPdf(params: any) {
+export async function generateReportPdf(params: Record<string, unknown>) {
     
     try {
         const res = await fetch(`${apiBaseUrl}/tickets/pdf`, {
