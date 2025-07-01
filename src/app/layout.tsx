@@ -10,7 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <body className="flex h-screen bg-gray-100 text-gray-900">
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        {/*eslint-disable-next-line @typescript-eslint/no-unused-vars */}
         <Sidebar 
             activeMenuItem={'relatorio'} 
            setActiveMenuItem={function (item: string): void {
