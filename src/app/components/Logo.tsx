@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logoImage from '@/app/assets/images/Logo.png';
+import logoImage from '@/app/assets/images/Logo10anos.png';
 
 function Logo () {
   return (
