@@ -13,9 +13,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/*eslint-disable-next-line @typescript-eslint/no-unused-vars */}
         <Sidebar 
             activeMenuItem={'relatorio'} 
-           setActiveMenuItem={function (item: string): void {
-            throw new Error('Function not implemented.');
-          }} 
+           // eslint-disable-next-line @typescript-eslint/no-unused-vars
+            setActiveMenuItem={function (_item: string): void {
+              throw new Error('Function not implemented.')
+            }} 
           />
         <main className="flex-1 p-6 overflow-auto">{children}</main>
       </body>
